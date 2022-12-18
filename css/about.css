@@ -1,0 +1,206 @@
+/* hero */
+.hero {
+  background: url("../images/about1.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero__title__wrapper {
+  width: 350px;
+}
+.hero__title {
+  margin-bottom: 78px;
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  color: var(--primary-white);
+}
+.hero__info {
+  width: 730px;
+  height: 156px;
+}
+.hero__divider {
+  margin-bottom: 40px;
+}
+.site__driver {
+  width: 50px;
+  height: 4px;
+  background: var(--primary-light);
+  border: 0;
+}
+.hero__description {
+  font-family: var(--primary-light);
+  font-style: normal;
+  font-weight: var(--main-font-weight);
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--primary-white);
+}
+.feature {
+  background: var(--secon-dep-gren);
+  content: "";
+  background: url("../images/aboutinfo1.svg") no-repeat,
+    url("../images/services1.svg") no-repeat;
+  background-position: left top, right bottom;
+}
+.feature-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 140px 0 168px;
+}
+.feature__f-title {
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 64px;
+  color: var(--primary-white);
+}
+.feature__f-list {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 76px;
+}
+.f-list__f-item {
+  text-align: center;
+  padding: 32px 24px 56px;
+  width: 350px;
+  height: 253px;
+  background: var(--secon-sacra-gren);
+}
+.f-item__f-info {
+  width: 302px;
+  position: relative;
+}
+.f-item__f-info::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url("../images/nikita.png") no-repeat;
+  background-position: top;
+  transform: translate(-50%, -50%);
+  margin-top: -60px;
+}
+.info2::before {
+  background: url("../images/cristian.png") no-repeat;
+}
+.info3::before {
+  background: url("../images/cruz.png") no-repeat;
+}
+.info4::before {
+  background: url("../images/drake.png") no-repeat;
+}
+.info5::before {
+  background: url("../images/griffin.png") no-repeat;
+}
+.f-6 {
+  background-color: var(--secon-dark-gren);
+}
+.f-item__f-info6 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.f-item__i-title6 {
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--secon-repture-blue);
+  margin-bottom: 8px;
+}
+.f-item__i-text6 {
+  font-family: var(--main-font-family);
+  width: 254px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--primary-white);
+  margin-bottom: 25px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.f-item__i-title {
+  margin-top: 112px;
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--secon-repture-blue);
+}
+.f-item__i-text {
+  font-family: var(--main-font-family);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--primary-white);
+}
+input {
+  appearance: none;
+}
+input::before {
+  content: "";
+  display: inline-block;
+  margin-bottom: -62px;
+  width: 56px;
+  height: 56px;
+  background: url("../images/plus.svg") no-repeat;
+  background-position: center;
+  background-color: var(--primary-light);
+  border-radius: 50%;
+}
+input:hover::before {
+  transform: rotate(135deg);
+  background-color: var(--secon-repture-blue);
+  transition: 0.5s;
+}
+.mack {
+  background-color: var(--secon-sacra-gren);
+  position: relative;
+}
+.mack::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: url("../images/clients-circle1.svg") no-repeat;
+  background-position: left top;
+}
+.mask-container {
+  padding: 140px 0;
+}
+.mask__title {
+  margin-bottom: 64px;
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--primary-white);
+}
+.mask__brends {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brends-img5 {
+  padding-top: 10px;
+}
