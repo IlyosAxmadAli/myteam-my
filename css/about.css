@@ -3,7 +3,6 @@
   background: url("../images/about1.svg");
   background-repeat: no-repeat;
   background-position: right bottom;
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 .hero-container {
@@ -45,11 +44,11 @@
   color: var(--primary-white);
 }
 .feature {
-  background: var(--secon-dep-gren);
   content: "";
   background: url("../images/aboutinfo1.svg") no-repeat,
     url("../images/services1.svg") no-repeat;
   background-position: left top, right bottom;
+  background-color: var(--secon-dep-gren);
 }
 .feature-container {
   display: flex;
@@ -130,7 +129,7 @@
   font-size: 15px;
   line-height: 25px;
   color: var(--primary-white);
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .icons {
   display: flex;
@@ -150,27 +149,39 @@
   font-style: italic;
   font-weight: 500;
   font-size: 15px;
-  line-height: 25px;
+  line-height: 13px;
   color: var(--primary-white);
 }
 input {
   appearance: none;
+  position: relative;
 }
 input::before {
   content: "";
+  position: absolute;
   display: inline-block;
-  margin-bottom: -62px;
   width: 56px;
   height: 56px;
   background: url("../images/plus.svg") no-repeat;
   background-position: center;
+  top: 7px;
+  left: -28px;
   background-color: var(--primary-light);
   border-radius: 50%;
+  transition: 0.5s;
+}
+input:checked::before {
+  transform: rotate(135deg);
+  background-color: var(--secon-repture-blue);
 }
 input:hover::before {
   transform: rotate(135deg);
   background-color: var(--secon-repture-blue);
   transition: 0.5s;
+}
+.i-6::before {
+  position: absolute;
+  top: -11px;
 }
 .mack {
   background-color: var(--secon-sacra-gren);

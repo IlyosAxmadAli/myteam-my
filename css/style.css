@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 120px;
 }
 .logo__link {
   margin-right: 8rem;
@@ -66,7 +67,6 @@
   background: url("../images/hero-img.svg"), url("../images/hero-img2.svg");
   background-repeat: no-repeat;
   background-position: left bottom 250px, right 165px bottom;
-  padding-top: 120px;
   padding-bottom: 250px;
 }
 .hero-container {

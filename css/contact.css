@@ -1,0 +1,118 @@
+.contact {
+  background: url("../images/contact1.svg") no-repeat,
+    url("../images/contact2.svg") no-repeat;
+  background-position: left top, right bottom;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
+}
+.contact__contact-title {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: var(--primary-white);
+  margin-bottom: 16px;
+}
+.contact__contact-info {
+  width: 540px;
+}
+.contact-info__info-name {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--primary-light);
+  margin-bottom: 32px;
+}
+.contact-info__item {
+  display: flex;
+  align-items: center;
+}
+.contact-info__text {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--primary-white);
+  margin-left: 32px;
+}
+.form-contact {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-family: var(--main-font-family);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  color: var(--primary-light);
+  padding: 10px 10px 0px;
+}
+input {
+  width: 540px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--secon-repture-blue);
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: var(--primary-white);
+  margin-bottom: 6px;
+  padding: 10px;
+}
+input::placeholder {
+  color: var(--secon-repture-blue);
+}
+
+textarea {
+  resize: none;
+  background: transparent;
+  width: 540px;
+  outline: none;
+  overflow: visible;
+  border: none;
+  border-bottom: 1px solid var(--secon-repture-blue);
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  padding: 10px;
+  margin-bottom: 24px;
+  color: var(--primary-white);
+}
+textarea::placeholder {
+  color: var(--secon-repture-blue);
+}
+.submit {
+  width: 132px;
+  height: 48px;
+  font-family: var(--main-font-family);
+  font-weight: var(--main-font-weight);
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--secon-dep-gren);
+  display: inline-block;
+  border-radius: 24px;
+  border: 2px solid var(--primary-white);
+  padding: 9px 33px 13px;
+  background-color: var(--primary-white);
+}
+.submit:hover {
+  color: var(--primary-white);
+  background-color: var(--secon-dep-gren);
+  transition: 0.3s;
+}
